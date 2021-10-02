@@ -1,0 +1,1856 @@
+:root {
+    --vermelho: #D90416;
+    --cereja: #D9042B;
+    --marrom: #A64F3C;
+    --scarlat: #F20505;
+    --preto: #111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.blur1 {
+    justify-self: center;
+    text-align: center;
+    height: 27vw;
+}
+header {
+    background-color: var(--preto);
+    width: 100%;
+    height: 95px;
+}
+.ajuste_cab {
+    width: 1920px;
+    margin: auto;
+}
+.cabeca {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    margin-left: 45px;
+    margin-top: 11px;
+}
+nav{
+    width: 35%;
+    margin-left: 65%;
+    margin-top: -50px;
+}
+nav ul a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover {
+    color: var(--vermelho);
+}
+.dropdown {
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+}
+.dropbtn {
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    padding: 0px; 
+}
+#home {
+    width: 0px;
+}
+
+.fundo0 {
+    height: 35vw;
+    width: 100%;
+    margin-top: 15px;
+}
+.corimg {
+    height: 30vw;
+    width: 100%;
+    background-color: black;
+}
+
+.img01 {
+    height: 100%;
+    width: 100%;
+}
+
+.fundo {
+    width: 100%;
+    margin: auto;
+    background-image: url(./img/blur\ 1-1920-720.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 49vh;
+}
+.fundo2 {
+    width: 100%;
+    margin-top: -44vh;
+}
+.centro {
+    height: 48vh;
+    width: 83vw;
+    margin: auto;
+}
+#noticias {
+    width: 100%;
+    height: 322px;
+    margin-top: -22px;
+    background-image: url("img/background.png");
+}
+
+.ajuste {
+    height: 320px;
+    margin: auto;
+    width: 100vw;
+    padding-top: 45px;
+}
+
+.caixa1
+{
+    height: 140px;
+    width: 25%;
+    margin-top: 25px;
+    margin-right: 11%;
+    border: solid 1px black;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0px 18px 0px 0px;
+}
+
+.espaco1 {
+    display: flex;
+}
+
+.caixa2
+{
+    height: 140px;
+    width: 25%;
+    border: solid 1px black;
+    display: inline-block;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 0px 18px 0px 0px;
+}
+
+.espaco2 {
+    display: flex;
+}
+
+.caixa3
+{
+    height: 140px;
+    width: 25%;
+    border: solid 1px black;
+    display: inline-block;
+    margin-left: 11%;
+    cursor: pointer;
+    border-radius: 0px 18px 0px 0px;
+}
+
+.espaco3 {
+    display: flex;
+}
+
+.caixa1:hover {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 0px 0px 0px 0px;
+}
+.caixa2:hover {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 0px 0px 0px 0px;
+}
+.caixa3:hover {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.caixa1:active {
+    transform: translateY(3px);
+}
+.caixa2:active {
+    transform: translateY(3px);
+}
+.caixa3:active {
+    transform: translateY(3px);
+}
+.caixa1_img {
+    margin: 0;
+    width: 131px;
+    height: 131px;
+    display: inline-block;
+}
+.caixa1_txt {
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 20px;   
+}
+
+.caixa2_img {
+    margin: 0;
+    width: 131px;
+    height: 131px;
+}
+.caixa2_txt {
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.caixa3_img {
+    margin: 0;
+    width: 131px;
+    height: 131px;
+}
+.caixa3_txt {
+    width: 260px;
+    margin-left: 5px;
+    margin-top: 40px;
+    margin-left: 20px; 
+}
+
+.tam {
+    height: 50rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+   
+}
+
+.tam2 {
+    height: 50rem;
+    background: linear-gradient(to right, #e41811e5 35%,#1b4e88af 72%);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation: degrade 6s infinite ease-in-out alternate;
+    position: relative;
+    
+}
+
+.latas {
+    width: 1400px;
+    margin: auto;
+    padding-bottom: 119px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.img_lata {
+    position: relative;
+    opacity: 92%;
+    margin-top: 12vh;
+}
+.text_lata {
+    position: relative;
+    margin-left: 290px;
+    color: #ffffff;
+    padding: 40px;
+    background-color: transparent;
+    height: 450px;
+    width: 880px;
+    border-radius: 25px 0px 25px 0px;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 95px;
+    margin-top: auto;
+}
+
+.sua_lata {
+    margin-top: 25px;
+    font-size: 36px;
+    text-align:justify;
+    padding-bottom: 2px;
+    margin-left: 26px;
+}
+.sua_lata2 {
+    font-size: 36px;
+    text-align: justify;
+    margin-left: 26px;
+
+}
+
+.lata_coca_vermelha {
+    width:250px
+}
+
+
+.espaco_cinza {
+    height: 150px;
+    background-color: #F7F7F7;
+}
+
+.container {
+    height: 720px;
+    width: 100%;
+    background:  url('img/vetor\(1920-920\).png');
+    margin: auto;
+    background-color: white;
+}
+#invisivel{
+    height: 110px;
+}
+.campanha {
+    height: 445px;
+    width: 100%;
+    background-color: transparent;
+    margin: auto;
+}
+.quadrado {
+    margin: auto;
+    width: 1210px;
+    height: 445px;
+}
+#esquerdo {
+    background-color: white;
+    width: 604px;
+    height: 445px;
+    padding-top: 23px;
+    border: solid 5px rgba(33, 33, 40);
+    display: inline-flex;    
+}
+#direita {
+    background-color: rgba(33, 33, 40); ;
+    width: 590px;
+    height: 445px;
+    display: inline-block;
+    margin-left: -6px;
+    margin-top: 3px;
+}
+#camp {
+    padding-top: 45px;
+    text-align: center;
+}
+#tit1{
+    text-align: center;
+    margin-top: 20px;
+}
+#txt1{
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 50px;
+}
+.oferta {
+    width: 100%;
+    display: inline-flex;
+    height: 28vw;
+}
+.metade {
+    width: 50%;
+}
+.quadrado2 {
+    margin: auto;
+    width: 100%;
+    height: 550px;
+}
+.ouro50 {
+    width: 100%;
+}
+.ouro {
+    margin: 0;
+}
+.metade2 {
+    width: 50%;
+    height: 101%;
+}
+.quadrado3 {
+    background-color: #EFC241;
+    width: 100%;
+    height: 99.5%;
+    
+}
+.olim_ouro {
+    color: #F9FCFF;
+    text-align: center;
+    padding-top: 11vh;
+}
+.coc_bold {
+    color:rgb(192, 40, 40);
+}
+.coc_size {
+    font-size: 50px;
+}
+
+.par_1 {
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.par_2 {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+}
+
+.info {
+position: relative;
+background-color: #273036;
+border: none;
+font-size: 28px;
+color: #FFFFFF;
+border-radius: 30px 30px 30px 30px;
+padding: 20px;
+width: 200px;
+height: 70px;
+margin-top: 25px;
+text-align: center;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+}
+
+.info:after {
+content: "";
+background: #c7cfc767;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px!important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s
+}
+
+.info:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s
+}
+
+.waves {
+    width: 100vw;
+    height: 5vw;
+    margin-top: -1vh;
+    background-color: #B80900;
+}
+.wave123 {
+    margin-top: -21vh;
+} 
+
+.wave2 {
+    animation: moveWave2 12s ease-in-out infinite alternate;
+
+    
+}
+
+@keyframes moveWave2 {
+    to{
+        transform: translateX(-100px);
+    }
+    from{
+        transform: translateX(-150px);
+    }
+}
+
+.wave3 {
+    animation: moveWave3 10s ease-in-out infinite alternate;
+    
+}
+
+@keyframes moveWave3 {
+    from{
+        transform: translateX(-100px);
+    }
+}
+.onda_black {
+    background-color: red;
+}
+
+.onda_white {
+    margin-top: -25vh;
+}
+.espacao {
+    height: 58vh;
+    background-color: red;
+
+}
+
+.info_game {
+    width: 100vw;
+    display: flex;
+    height: 100%;
+    margin: auto;
+}
+
+.info_desc {
+    margin-top:27vh;
+    width: 35vw;
+}
+
+.knowgame {
+    font-size: 35px;
+    color: white;
+    margin-left: 90px;
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--preto);
+}
+
+.font_size_game {
+    font-size: 49px;
+}
+
+.bolder_coke {
+    font-size: 62px;
+}
+
+.width_img_centro {
+    width: 33vw;
+}
+
+.baixe_game {
+    font-size: 20px;
+    color: white;
+    width: 27vw;
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--preto);  
+}
+
+.adventure_game {
+    font-size: 85px;
+    text-shadow: 1px 1px 2px var(--preto);
+}
+.start {
+    position:relative;
+    margin-top: 28vh;
+}
+
+.img_cent {
+    margin: auto;
+    width: 314px;
+    height: 510px;
+}
+
+.img_cosh {
+    border-style: ridge;
+    border-radius: 50%;
+    width: 314px;
+    margin-top: 23vh;
+}
+
+.pe {
+    height: 30vh;
+    background-color: #201E1E;
+    margin-top: -8px;
+    color: white;
+}
+.ajuste_info {
+    margin: auto;
+    width: 67vw;
+}
+
+.plus_info {
+    display: inline-flex;
+}
+
+
+.logo_info {
+    margin-right: 391px;
+    width: 280px;
+}
+
+
+.contatos {
+    margin-top: 0;
+    display: inline;
+    
+}
+.contatos p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.ico_peq {
+    width: 165px;
+    height: 80px;
+    cursor: pointer;
+
+}
+
+.navegue {
+    margin-right: 100px;
+    width: 250px;
+    display: grid;
+    height: 176px;
+
+}
+
+.navegue h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 9px;
+    height: 22px;
+}
+
+.navegue a {
+    margin-top: 0px;
+    font-size: 18px;
+    height: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.institu {
+    width: 200px;
+    margin-right: 80px;
+}
+
+.institu h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.institu a {
+    display: grid;
+    margin-top: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.cadastrar {
+    position: relative;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    color: #273036;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    background-color: #201E1E;
+    color: white;
+    width: 190px;
+    border: solid 2px white;
+}
+.cadastrar:after {
+    content: "";
+    background: #c7cfc767;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+
+}
+
+.cadastrar:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+    }
+
+.regulamento {
+    position: relative;
+    background-color: #201E1E;
+    border: solid 2px white;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    padding: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.regulamento:hover {
+    background-color: #ffffff;
+    color: #201E1E;
+    width: 190px;
+    border: solid 2px #141414;
+}
+
+.regulamento:after {
+    content: "";
+    background: #36363667;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    
+}
+    
+.regulamento:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+} 
+
+.redes {
+    width: 200px;
+    display: inline-flex;
+    margin-top: 24px;
+}
+.faceico {
+    margin-left: 4px;
+    width: 11px;
+    color: white;
+    margin-right: 27px;
+
+}
+.twitico {
+    width: 25px;
+    color: white;
+    margin-right: 25px;
+}
+
+.youtuico {
+    width: 29px;
+    color: white;
+    margin-right: 25px;
+
+}
+
+.instaico {
+    width: 23px;
+    color: white;
+   
+}   
+
+@media screen and (max-width: 3000px) {
+    .ajuste {
+        width: 70%;
+
+    }
+    
+}
+
+@media screen and (max-width: 2800px) {
+    .ajuste {
+        width: 75%;
+
+    }
+    .fundo0 {
+        height: 51vh;
+    }
+    .ajuste {
+        padding-top: 76px;
+    }
+    
+}
+
+@media screen and (max-height: 1200px) {
+    
+}
+
+@media screen and (max-width: 1920px) {
+    .ajuste {
+        width: 86%;
+
+    }
+    .fundo0 {
+        height: 50vh;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1750px) {
+
+    nav {
+        width: 37%;
+    }
+    .fundo0 {
+        height: 51vh;
+    }
+
+
+
+
+.ajuste_cab {
+    width: 1750px;
+}
+.img_cosh{
+    margin-top: 17vh;
+}
+.ajuste_info {
+     width: 1371px;
+}
+}
+
+@media screen and (max-width: 1680px) {
+    nav {
+        margin-left: 60%;
+    }
+    .caixa1_txt {
+        margin-top: 18px;
+    }
+    .caixa2_txt {
+        margin-top: 18px;
+    }
+    .caixa3_txt {
+        margin-top: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .wave123 {
+        margin-top: -18vh;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+
+    nav {
+        width: 45%;
+        margin-left: 55%;
+    }
+    .caixa1_txt {
+        font-size: 16px;
+    }.caixa2_txt {
+        font-size: 16px;
+    }.caixa3_txt {
+        font-size: 16px;
+    }
+
+    .ajuste_cab {
+        width: 1500px;
+    }
+    .waves {
+        height: 0px;
+    }
+    .wave123 {
+        height: 0px;
+    }
+    .knowgame { 
+        font-size: 29px;
+    } 
+    .font_size_game
+    {
+        font-size: 41px; 
+    } 
+    .bolder_coke 
+    { 
+        font-size: 47px; 
+    }
+    .img_cosh{
+        margin-top: 17vh;
+        width: 300px;
+    }
+    .info_desc {
+        width: 32vw;
+    }
+    .img_cent {
+        margin-left: 8vw;
+    }
+    .logo_info {
+        margin-right: 132px;
+        width: 280px;
+    }
+    .ajuste_info {
+        width: 1151px;
+   }
+   .start {
+    margin-left: 3%;
+   }
+   .adventure_game {
+    font-size: 61px;
+
+    }
+    .caixa1 {
+        width: 27%;
+        margin-right: 9%;
+    }
+    .caixa2 {
+        width: 27%;
+    }
+    .caixa3 {
+        width: 27%;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (max-width: 1425px) {
+    .olim_ouro {
+        padding-top: 5vh;
+    }
+    .caixa1 {
+        margin-right: 8.5%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .fundo0 {
+        height: 50vh;
+    }
+    .latas {
+        width: 1289px;
+    }
+    .text_lata {
+        margin-left: 140px;
+    }
+    .caixa1 {
+        width: 28%;
+        margin-right: 6.5%;
+    }
+    .caixa2 {
+        width: 28%;
+    }
+    .caixa3 {
+        width: 28%;
+        margin-left: 6.5%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    nav {
+        margin-left: 49%;
+        width: 46%;
+    }
+    .caixa1 {
+        height: 114px;
+    }
+    .caixa2 {
+        height: 114px;
+    }
+    .caixa3 {
+        height: 114px;
+    }
+    
+}
+
+@media screen and (max-width: 1281px) {
+
+    .logo_info {
+        margin-right: 30px;
+    }
+
+    .ajuste_info {
+        width: 90%;
+    }
+    .navegue {
+        margin-right: 22px;
+    }
+    nav {
+        width: 46%;
+        font-size: 18px;
+        margin-left: 54%;
+    }
+    .ajuste {
+        width: 91vw;
+        margin: auto;
+    }
+    .latas {
+       width: 1067px;
+    }
+    .plus_info {
+        display: inline-flex;
+        width: 99%;
+    }
+    .text_lata {
+        margin-left: 6px;
+        font-size: 43px
+    }
+    .sua_lata {
+        text-align: center;
+    }
+    .sua_lata2 {
+        text-align: center;
+    }
+
+   .info {
+       font-size: 24px;
+       border-radius: 15px 15px 15px 15px;
+       padding: 10px;
+       width: 180px;
+       height: 60px;
+       margin-top: 20px;
+    }
+    .coc_size {
+       font-size: 26px;
+    }
+
+    .par_1 {
+       font-size: 20px;
+       }
+    .par_2 {
+       font-size: 20px;
+    }
+    .bolder_coke {
+        font-size: 39px;
+    }
+    .knowgame {
+        font-size: 22px;
+    }
+    .font_size_game {
+        font-size: 32px;
+    }
+    .img_cosh{
+        margin-top: 14vh;
+        width: 250px;
+    }
+    .pe {
+         height: 38vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+        .logo_info {
+            margin-right: 30px;
+        }
+        .navegue {
+            margin-right: 22px;
+        }
+        nav {
+            width: 46%;
+            font-size: 16px;
+            padding: 0px;
+            margin-left: 55%;
+        }
+        .latas {
+            width: 97vw;
+        }
+        .signin {
+            width: 18vw;
+        }
+        .logo_info {
+            width: 260px;
+            margin-right: 0px;
+        }
+
+        .espaco_cinza {
+            height: 110px;
+        }
+        .latas {
+            padding-bottom: 0px;
+        }
+
+
+        .ajuste {
+            font-size: 12px;
+        }
+        .ajuste img {
+            width: 100px;
+        }
+        .img_cosh {
+            width: 200px;
+            margin-left: 30px;
+        }
+        .img_cent {
+            margin-left: 4vw;
+        }
+        .info_desc {
+            width: 34vw;
+        }
+        .adventure_game {
+            font-size: 50px;
+        }
+        .pe {
+            height: 44vh;
+        }
+        .text_lata {
+            position: relative;
+            margin-left: -4px;
+            color: #ffffff;
+            padding: 0;
+            text-align: center;
+            font-size: 32px;
+            margin-top: 18vh;
+            font-size: 25px;
+        }
+        .lata_coca_vermelha {
+            width: 217px;
+            margin-left: 84px;
+        }
+        
+        .sua_lata {
+            text-align: center;
+            margin-left: 0px;
+            font-size: 30px;
+        }
+        .sua_lata2 {
+            text-align: center;
+            margin-left: 0px;
+            font-size: 30px;
+        }
+        .bolder_coke {
+            font-size: 37px;
+        }
+        .start {
+            margin-left: 1%;
+            margin-top: 21vh;
+        }
+        .info_desc {
+            margin-top: 20vh;
+        }
+        
+    }
+
+    @media screen and (max-width: 1000px) {
+        nav {
+            padding: 5px;
+            font-size: 14px;
+        }
+        .caixa1 {
+            margin-right: 5%;
+            width: 30%;
+        }
+        .caixa2 {
+            width: 29%;
+        }
+        .caixa3 {
+            margin-left: 5%;
+            width: 30%;
+        }
+        .ajuste {
+            font-size: 12px;
+        }
+        .ajuste img {
+            width: 85px;
+        }
+        .fundo2 {
+            padding-left: 15px;
+        }
+        .latas h2 {
+            font-size: 20px;
+        }
+        .latas p {
+            font-size: 16px;
+        }
+        
+        .espaco_cinza {
+            height: 9vh;
+        }
+        .sua_lata {
+            margin-top: 18px;
+        }
+        .lata_coca_vermelha {
+            width: 0px;
+        }
+        .tam {
+            height: 24rem;
+        }
+        .latas {
+            padding-bottom: 0;
+        }
+        .tam2 {
+            height: 23rem;
+        }
+        .coc_size {
+            font-size: 25px;
+        }
+
+        .par_1 {
+            font-size: 18px;
+        }
+        .par_2 {
+            font-size: 18px;
+        }
+        .info {
+            font-size: 20px;
+            border-radius: 10px 10px 10px 10px;
+            padding: 20px;
+            width: 150px;
+            height: 60px;
+            margin-top: 25px;
+        }
+        .font_size_game {
+            font-size: 30px;
+        }
+        .bolder_coke {
+            font-size: 35px;
+        }
+        .img_cosh {
+            margin-left: 51px;
+        }
+        .pe {
+            height: 176vh;
+        }
+        .plus_info {
+            display: grid;
+        }
+        footer {
+            display: grid;
+        }
+        .ajuste_info {
+            width: 180px;
+        }
+        .text_lata {
+            width: 100vw;
+            margin-top: 12vh;
+            text-align: center;
+            margin-left: 0px;
+            padding-top: 0px;
+            height: 25vh;
+    
+        }
+        .sua_lata2 {
+            margin-left: 0;
+            text-align: center;
+        }
+        .latas p {
+            font-size: 16px;
+            text-align: center;
+            margin-left: 0px;
+        }
+        .img_lata {
+            width: 0px;
+        }
+        .latas {
+            width: 100%;
+        }
+        .latas p {
+            font-size: 19px;            
+        }
+        .knowgame {
+            margin-left: 60px;
+        }
+        .start {
+            margin-left: 2%;
+            margin-top: 20vh;
+        }
+        .adventure_game {
+            font-size: 40px;
+        }
+        .info_desc {
+            margin-top: 20vh;
+            width: 35vw;
+        }
+        .img_cent {
+            margin-left: 0vw;
+        }
+        
+    }
+
+    @media screen and (max-width: 900px) {
+        nav {
+            width: 52%;
+            margin-left: 49%;
+        }
+        .info_desc {
+            width: 37vw;
+        }
+        .caixa1 {
+            height: 99px;
+        }
+        .caixa2 {
+            height: 99px;
+        }
+        .caixa3 {
+            height: 99px;
+        }
+        .centro {
+            height: 45vh;
+        }
+        .fundo0 {
+            height: 47vh;
+        }
+        .img_cent {
+            margin-left: -4vw;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        
+        .dim1 {
+            width: 121px;
+            margin: auto;
+    }
+        header {
+            height: 120px;
+        }
+        .ajuste_cab {
+            height: 100px;
+            margin-top: 0px;
+        }
+        nav {
+            padding-top: 5px;
+            font-size: 14px;
+            margin: auto;
+            width: 413px;
+        }
+
+        .logo {
+            margin-top: 11px; 
+            width: 127px;
+            margin-left: 0px;
+        }
+        .caixa1 {
+            width: 270px;
+            height: 98px;
+            margin-top: 35px;
+        }
+        .caixa2 {
+            width: 270px;
+            height: 98px;
+        }
+        .caixa3 {
+            width: 270px;
+            margin-top: 4vh;
+            margin-left: 0;
+        }
+        .ajuste {
+            display: grid;
+            width: 271px;
+            margin: auto;
+        }
+        .oferta {
+            margin-top: 0vh;
+        }
+        .coc_size {
+            font-size: 20px;
+        }
+
+        .par_1 {
+            font-size: 14px;
+        }
+        .par_2 {
+            font-size: 14px;
+        }
+        .info {
+            font-size: 16px;
+            border-radius: 10px 10px 10px 10px;
+            padding: 10px;
+            width: 110px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        .img_cosh {
+            width: 150px;
+        }
+        .adventure_game {
+            font-size: 30px;
+        }
+    
+        .font_size_game {
+            font-size: 25px;
+        }
+        .bolder_coke {
+            font-size: 30px;
+        }
+        .knowgame {
+            margin-left: 39px;
+            width: 255px;
+            margin-top: -10px;
+            font-size: 19px;
+        }
+        .logo_info {
+            width: 100%;
+        }
+        .logo_info svg {
+            width: 0px;
+        }
+        .contatos p {
+            font-size: 0px
+        }
+        #fale_aqui {
+            font-size: 20px;
+            font-weight: bolder;
+            width: 100%;
+            border-bottom: solid 1px rgba(161, 153, 153, 0.644);
+            padding-bottom: 1vh;
+        }
+        
+        .signin {
+            width: 181px;
+            margin: auto;
+        }
+        .navegue {
+            height: 35px;
+            width: 100%;
+            margin: auto;
+            border-bottom: solid 1px rgba(161, 153, 153, 0.644);
+            margin-top: -20px;
+        }
+        .navegue a {
+            font-size: 0px;
+        }
+        .institu {
+            height: 35px;
+            border-bottom: solid 1px rgba(161, 153, 153, 0.644);
+            width: 100%;
+            margin-top: 10px;
+        }
+        .institu a {
+            font-size: 0px;
+        }
+        .cadastrar {
+            padding: 0px;
+        }
+        .regulamento {
+            padding: 0px;
+        }
+        .ico_peq {
+            height: 0px;
+        }
+        .ajuste_info {
+            margin-top: -20px;
+        }
+        .pe {
+            height: 39vh;
+        }
+        .ajuste_info {
+            width: 100%;
+        }
+        .espaco_cinza {
+            height: 12vh;
+        }
+        #noticias {
+            height: 54vh;
+        }
+        .centro {
+            height: 42vh;
+        }  
+        .img_cent {
+            width: 246px;
+            margin-left: -4vw;
+        } 
+    }
+
+    @media screen and (max-width: 680px) {
+
+        .ajuste_cab {
+            width: 100vw;
+        }
+        .info_game {
+            width: 100vw;
+        }
+        .par_1 {
+            margin-top: 3px; 
+        }
+        .olim_ouro {
+            color: #F9FCFF;
+            text-align: center;
+            padding-top: 1vh;
+        }
+        .info {
+            font-size: 11px;
+            width: 77px;
+            height: 30px;
+            margin-top: 3px;
+        }
+
+        .pe {
+            height: 38vh;
+        }
+        .text_lata p {
+            margin-left: 0px;
+            text-align: center;
+        }
+    
+        .img_cosh {
+            width: 130px;
+        }
+        .knowgame {
+            margin-left: 10px;
+            width: 255px;
+            margin-top: -14px;
+            font-size: 19px;
+        }
+        .coc_size {
+            font-size: 20px;
+            width: 80%;
+            text-align: center;
+            margin: auto;
+        }
+        .par_1 {
+            font-size: 13px;
+        }
+        .par_2 {
+            font-size: 13px;
+        }
+        .ajuste img {
+            width: 95px;
+        }
+        .img_cosh {
+            width: 117px;
+        }
+        .espacao {
+            height: 39vh;
+        }
+        .dropbtn {
+            background-color: #495350;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            width: 61px !important;
+            height: 61px !important;
+            margin: 0 !important;
+            border-radius: 50% !important;
+          }
+          
+          .dropdown {
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+            padding: 0px 85px 85px 0px;
+            margin-top: 18px;
+            margin-left: 52% !important;
+            
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          .dropdown-content a:hover {background-color: #ddd;}
+          
+          .dropdown:hover .dropdown-content {display: block;}
+          
+          .dropdown:hover .dropbtn {background-color: #2d2e2d;}
+    
+          #home {
+              width: 32px;
+          }
+          .dim1 {
+              display: flex;
+              width: 100%;
+          }
+          nav {
+            font-size: 0px;
+        }
+        .logo {
+            margin-left: 5vw;
+            margin-top: 11px;
+            width: 120px;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+
+        nav {
+            padding-top: 8px;
+            font-size: 12px;
+            margin: auto;
+            width: 368px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        nav {
+            width: 301px;
+            font-size: 9px;
+        }
+        .institu {
+            margin-right: 0px;
+        }
+        .info_game {
+            width: 100vw;
+        }
+        .caixa1 {
+            margin-top: 42px;
+            width: 233px;
+            height: 85px;
+        }
+        .caixa2 {
+            margin-top: 19px;
+            width: 233px;
+            height: 85px;
+        }
+        .caixa3 {
+            margin-top: 19px;
+            width: 233px;
+            height: 85px;
+        }
+        .img_cent {
+            width: 148px;
+            height: 275px;
+        }
+        .ajuste_cab {
+            width: 100vw;
+        }
+        #noticias {
+            height: 50vh;
+        }
+        .text_lata {
+            margin-top: 0px;
+            height: 200px;
+        }
+        .latas {
+            width: 386px;
+            margin-top: 4vh;
+            height: 11vh;
+        }
+        .espaco_cinza {
+            margin-top: -9vh;
+        }
+        .oferta {
+            margin-top: 0vh;
+        }
+
+        .tam2 {
+            height: 13rem;
+        }
+        .olim_ouro {
+            padding-top: 2vh;
+        }
+        .coc_size {
+            font-size: 16px;
+        }
+        .par_1 {
+            font-size: 10px;
+            margin-top: 8px;
+        }
+        .par_2 {
+            font-size: 10px;
+        }
+        .info {
+            font-size: 13px;
+            padding: 0px;
+            width: 85px;
+            height: 28px;
+            margin-top: 16px;
+        }
+        .knowgame {
+            margin-left: -25px;
+            width: 255px;
+            margin-top: -19px;
+            font-size: 10px;
+        }
+        .font_size_game {
+            font-size: 17px;
+        }
+        .bolder_coke {
+            font-size: 24px;
+        }
+        .width_img_centro {
+            width: 27vw;
+        }
+        .img_cosh {
+            width: 90px;
+            margin-left: 31px;
+        }
+        .start {
+            font-size: 16px;
+            margin-top: 20vh;
+        }
+        .pe {
+            height: 35vh;
+        }
+        .blur1 {
+            height: 26vw;
+        }
+        .tam {
+            height: 13rem;
+        }
+        .ajuste img {
+            width: 83px;
+        }
+        .ajuste {
+            width: 233px;
+        }
+        .latas h2 {
+            font-size: 18px;
+        }
+        .latas p {
+            font-size: 14px;
+        }
+        .fundo0 {
+            height: 39vh;
+        }
+        .centro {
+            height: 32vh;
+        }
+    }
+
+    @media screen and(max-width: 390px) {
+
+        nav {
+            margin-left: 6vw;
+            font-size: 11px;
+        }
+        .logo {
+            margin-left: 37vw;
+        }
+        .pe {
+            height: 36vh;
+        }
+        .knowgame {
+            margin-left: -40px;
+            width: 244px;
+            font-size: 8px;
+        }
+        .font_size_game {
+            font-size: 13px;
+        }
+        .bolder_coke {
+            font-size: 18px;
+        }
+        .img_cosh {
+            width: 72px;
+            margin-left: 29px;
+            margin-top: 10vh;
+        }
+        .start {
+            font-size: 10px;
+            margin-top: 19vh;
+            margin-left: 4vw;
+        }
+        .adventure_game {
+            font-size: 21px;
+        }
+        .caixa1_img {
+            height: 70px;
+        }
+        .caixa2_img {
+            height: 81px;
+        }
+        .caixa3_img {
+            height: 81px;
+        }
+        .caixa1_txt {
+            margin-top: 25px;
+            margin-left: 7px;
+        }
+        .caixa2_txt {
+            margin-top: 25px;
+            margin-left: 7px;
+        }
+        .caixa3_txt {
+            margin-top: 25px;
+            margin-left: 7px;
+        }
+        .latas {
+            margin: auto;
+            padding-bottom: 119px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            height: 208px;
+            width: 830px;
+            margin-top: -277px;
+        }
+        .text_lata {
+            padding-top: 0;
+            margin-left: 0px;
+            padding: 0px;
+            height: 158px;
+            margin-top: 127px;
+            width: 45%;
+        }
+        .sua_lata {
+            margin-top: 8px;
+        }
+        .oferta {
+            margin-top: -3vh;
+        }
+        .coc_size {
+            font-size: 13px;
+        }
+        .par_1 {
+            font-size: 8px;
+            margin-top: 8px;
+        }
+        .par_2 {
+            font-size: 8px;
+        }
+        .info {
+            font-size: 9px;
+            padding: 0px;
+            width: 60px;
+            height: 20px;
+            margin-top: 16px;
+        }
+        .espaco_cinza {
+            margin-top: 0vh;
+        }
+       
+        .tam {
+            height: 13rem;
+        }
+        .oferta {
+            margin-top: 43vh;
+        }   
+        .caixa1 {
+            width: 166px;
+            height: 61px;
+            margin: auto;
+        }
+        .caixa2 {
+            width: 166px;
+            height: 61px;
+            margin: auto;
+            margin-top: -8px;
+        }
+        .caixa3 {
+            width: 166px;
+            height: 61px;
+            margin: auto;
+            margin-top: -33px;
+        }
+        .ajuste {
+            padding-top: 20px;
+            width: 100vw;
+        }
+        .ajuste img {
+            width: 59px;
+        }
+        .caixa1_txt {
+            margin-top: 17px;
+            font-size: 10px;
+        }
+        .caixa2_txt {
+            margin-top: 17px;
+            font-size: 10px;
+        }
+        .caixa3_txt {
+            margin-top: 17px;
+            font-size: 10px;
+        }
+    }
+
