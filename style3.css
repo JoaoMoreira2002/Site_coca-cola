@@ -71,7 +71,7 @@ nav ul a:hover {
     background-repeat:  no-repeat;
 }
 .promotions {
-    height: 194vh;
+    height: 1885px;
     width: 100vw;
     background-color: whitesmoke;
 }
@@ -107,7 +107,7 @@ nav ul a:hover {
 
 .img_promo_1 {
     width: 100%;
-    height: 34vh;
+    height: 55%;
     background-image: url(./img/tenis-edit.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ nav ul a:hover {
 
 .img_promo_2 {
     width: 100%;
-    height: 34vh;
+    height: 55%;
     background-image: url(./img/spider-man.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ nav ul a:hover {
 
 .img_promo_3 {
     width: 100%;
-    height: 34vh;
+    height: 55%;
     background-image: url(./img/olimpiadas-promo.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ nav ul a:hover {
 
 .img_promo_4 {
     width: 100%;
-    height: 34vh;
+    height: 55%;
     background-image: url(./img/mini-garrafas.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ nav ul a:hover {
 
 .img_promo_5 {
     width: 100%;
-    height: 34vh;
+    height: 55%;
     background-image: url(./img/amazon-edit.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ nav ul a:hover {
 
 .img_promo_6 {
   width: 100%;
-  height: 34vh;
+  height: 55%;
   background-image: url(./img/just_dance.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -538,6 +538,9 @@ button:hover span:after {
         padding: 17px;
         width: 160px;
     }
+    .promotions {
+        height: 1953px;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -577,6 +580,9 @@ button:hover span:after {
         font-size: 21px;
         padding: 17px;
         width: 160px;
+    }
+    .promotions {
+    height: 1879px;
     }
 }
 
@@ -651,6 +657,9 @@ button:hover span:after {
     }
     .capa_foto {
         height: 48vh;
+    }
+    .promotions {
+        height: 1718px;
     }
 }
 
@@ -771,6 +780,9 @@ button:hover span:after {
     .botao_promo {
         margin-top: 3%;
     }
+    .promotions {
+        height: 1819px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -836,7 +848,7 @@ button:hover span:after {
         height: 24vh;
     }
     .promotions {
-        height: 150vh;
+        height: 1500px;
     }
     .square_1 {
         height: 94%;
@@ -921,7 +933,7 @@ button:hover span:after {
         width: 390px;
     }
     .promotions {
-        height: 300vh;
+        height: 3000px;
     }
     .block_1 {
         display: grid;
