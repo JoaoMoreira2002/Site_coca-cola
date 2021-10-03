@@ -54,18 +54,13 @@ nav ul a:hover {
     color: var(--vermelho);
 }
 .dropdown {
-    width: 0px;
-    height: 0px;
-    font-size: 0px;
+    display: none;
 }
 .dropbtn {
-    width: 0px;
-    height: 0px;
-    font-size: 0px;
-    padding: 0px; 
+    display: none; 
 }
 #home {
-    width: 0px;
+    display: none;
 }
 
 .slick-track {
@@ -452,11 +447,11 @@ ul.slick-dots {
 }
 
 .onda_white {
-    margin-top: -30vh;
+    margin-top: -15vw;
 }
 
 .pe {
-    height: 30vh;
+    height: 350px;
     background-color: white;
     margin-top: -8px;
     color: #201E1E;
@@ -737,7 +732,7 @@ ul.slick-dots {
         margin-left: 25px;
     }
     .pe {
-        height: 38vh;
+        height: 350px;
     }
     .logo_info { 
         margin-right: 66px;        
@@ -796,17 +791,18 @@ ul.slick-dots {
     .slick-track {
         width: 983px !important;
     }
+    .logo_info {
+        margin-left: 12px;
+    } 
 }
 
 @media (max-width: 1100px) {
     nav {
         font-size: 18px;
     }
-    .pe {
-        height: 44vh;
-    }
+
     .map1 {
-        width: 340px;
+        width: 350px;
     }
     .map2 {
         width: 340px;
@@ -854,11 +850,11 @@ ul.slick-dots {
     }
     .logo_info { 
         margin-right: 36px; 
+        margin-left: 20px;
     }
     .ajuste_info {
         width: 1001px;
     }
-
 }
 
 @media (max-width: 1000px) {
@@ -949,7 +945,19 @@ ul.slick-dots {
         margin-top: 30px;
     }
     .pe {
-        height: 100vh;
+        height: 1200px;
+    }
+    .navegue {
+        margin-top: 35px;
+    }
+    .institu h4 {
+        margin-top: 30px;
+    }
+    .signin {
+        margin-top: 25px;
+    }
+    .logo_info {
+        margin-left: 0px;
     }
 
 }
@@ -1037,7 +1045,7 @@ ul.slick-dots {
         margin-top: -20px;
     }
     .navegue a {
-        font-size: 0px;
+        display: none;
     }
     .institu {
         height: 35px;
@@ -1046,7 +1054,7 @@ ul.slick-dots {
         margin-top: 10px;
     }
     .institu a {
-        font-size: 0px;
+        display: none;
     }
     .cadastrar {
         padding: 0px;
@@ -1168,17 +1176,18 @@ ul.slick-dots {
         margin-top: 40px !important;
     }
     .pe {
-        height: 39vh;
+        height: 480px;
     }
     #fale_aqui {
         padding-bottom: 1vh;
     }
+    .institu h4 {
+        margin-top: 0px;
+    }
+    
 }
 
 @media (max-width: 680px) {
-    .pe {
-        height: 99vh;
-    }
     .map1 {
         width: 160px;
         padding-right: 19px; 
@@ -1291,7 +1300,7 @@ ul.slick-dots {
         height: 40vh;
     }
     .pe {
-        height: 38vh;
+        height: 470px;
     }
     .history_1 {
         padding-top: 19vh;
@@ -1312,16 +1321,16 @@ ul.slick-dots {
         height: 61px !important;
         margin: 0 !important;
         border-radius: 50% !important;
+        display: flex;
       }
       
       .dropdown {
         position: relative;
         display: inline-block;
         font-size: 16px;
-        padding: 0px 85px 85px 0px;
+        padding: 0px 0px 25px 25px;
         margin-top: 18px;
-        margin-left: 52% !important;
-        
+        float: right;
       }
       
       .dropdown-content {
@@ -1332,7 +1341,6 @@ ul.slick-dots {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
-      
       .dropdown-content a {
         color: black;
         padding: 12px 16px;
@@ -1342,25 +1350,29 @@ ul.slick-dots {
       
       .dropdown-content a:hover {background-color: #ddd;}
       
-      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropdown-content {
+        display: block; 
+        margin-left: -125px !important;
+      }
       
       .dropdown:hover .dropbtn {background-color: #2d2e2d;}
 
       #home {
           width: 32px;
+          display: inline;
       }
       .dim1 {
-          display: flex;
-          width: 100%;
+          width: 91%;
+          margin: auto;
       }
       nav {
-        font-size: 0px;
-    }
-    .logo {
+        display: none;
+      }
+      .logo {
         margin-left: 5vw;
-        margin-top: 11px;
+        margin-top: 25px;
         width: 120px;
-    }
+      }
 }
 
 @media (max-width: 480px) {
@@ -1432,17 +1444,19 @@ ul.slick-dots {
         padding-right: 0px;
     }
     .sin1 {
-        margin-top: -343px;
-        font-size: 9px;
-    }
-    .sin2 {
-        font-size: 9px;
-        width: 201px;
-        margin-top: -171px;
-    }
-    .sin3 {
-        font-size: 9px;
-        margin-top: 4px;
+        margin-top: -215px; 
+        font-size: 8px; 
+        width: 100%; 
+    } 
+    .sin2 { 
+        font-size: 8px; 
+        margin-top: -198px; 
+        width: 100%; 
+    } 
+    .sin3 { 
+        font-size: 8px; 
+        margin-top: 315px; 
+        width: 100%; 
     }
     #heroe {
         font-size: 115px;
@@ -1469,12 +1483,7 @@ ul.slick-dots {
     ul.slick-dots li {
         margin-left: 5px !important;
     }
-    nav ul a {
-        padding: 10px;
-    }
-    nav {
-        width: 390px;
-    }
+
     .slick-track {
         width: 300px !important;
     }
@@ -1487,15 +1496,6 @@ ul.slick-dots {
     .ajuste_sinopse { 
         width: 164px; 
         display: inline-block; 
-    }
-    .sin1 { 
-        width: 100%;
-    }
-    .sin2 { 
-        width: 100%; 
-    }
-    .sin3 {  
-        width: 100%; 
     }
     .metademap {
         width: 100%;
@@ -1510,11 +1510,8 @@ ul.slick-dots {
         margin-left: -35px !important;
     }
     .pe {
-        height: 35vh;
+        height: 450px;
     }
-    .dropdown {
-        margin-left: 40% !important;
-      }
 }
 
 
@@ -1561,16 +1558,12 @@ ul.slick-dots {
     }
     .ajuste_cab { 
         width: 325px; 
-    } 
+    }
     .logo { 
         width: 119px; 
         margin-left: 0px;
     }
-    nav { 
-        width: 272px; 
-        margin-left: 6vw; 
-        font-size: 9px; 
-    } 
+
     .c-centro { 
         width: 279px; 
     } 
@@ -1599,7 +1592,7 @@ ul.slick-dots {
         margin-left: -53px !important;
     }
     .pe {
-        height: 36vh;
+        height: 415px;
     }
 }
 
