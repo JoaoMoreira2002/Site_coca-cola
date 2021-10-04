@@ -108,7 +108,7 @@ nav ul a:hover {
 .ajuste {
     height: 320px;
     margin: auto;
-    width: 100vw;
+    width: 70vw;
     padding-top: 45px;
 }
 
@@ -185,34 +185,34 @@ nav ul a:hover {
 }
 .caixa1_img {
     margin: 0;
-    width: 131px;
+    width: 40%;
     height: 131px;
     display: inline-block;
 }
 .caixa1_txt {
-    width: 280px;
+    width: 60%;
     margin-top: 40px;
     margin-left: 20px;   
 }
 
 .caixa2_img {
     margin: 0;
-    width: 131px;
+    width: 40%;
     height: 131px;
 }
 .caixa2_txt {
-    width: 280px;
+    width: 60%;
     margin-top: 40px;
     margin-left: 20px;
 }
 
 .caixa3_img {
     margin: 0;
-    width: 131px;
+    width: 40%;
     height: 131px;
 }
 .caixa3_txt {
-    width: 260px;
+    width: 60%;
     margin-left: 5px;
     margin-top: 40px;
     margin-left: 20px; 
@@ -252,7 +252,7 @@ nav ul a:hover {
 .img_lata {
     position: relative;
     opacity: 92%;
-    margin-top: 12vh;
+    margin-top: 5rem;
 }
 .text_lata {
     position: relative;
@@ -260,13 +260,12 @@ nav ul a:hover {
     color: #ffffff;
     padding: 40px;
     background-color: transparent;
-    height: 450px;
+    height: 289px;
     width: 880px;
     border-radius: 25px 0px 25px 0px;
     text-align: center;
     font-size: 32px;
-    padding-top: 95px;
-    margin-top: auto;
+    margin-top: 11rem;
 }
 
 .sua_lata {
@@ -376,7 +375,7 @@ nav ul a:hover {
 .olim_ouro {
     color: #F9FCFF;
     text-align: center;
-    padding-top: 11vh;
+    padding-top: 20%;
 }
 .coc_bold {
     color:rgb(192, 40, 40);
@@ -442,8 +441,8 @@ transition: 0s
     background-color: #B80900;
 }
 .wave123 {
-    margin-top: -21vh;
-} 
+    margin-top: -11vw;
+}
 
 .wave2 {
     animation: moveWave2 12s ease-in-out infinite alternate;
@@ -553,7 +552,7 @@ transition: 0s
 }
 .ajuste_info {
     margin: auto;
-    width: 67vw;
+    width: 1248px;
 }
 
 .plus_info {
@@ -751,12 +750,10 @@ transition: 0s
    
 }   
 
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 3800px) {
     .ajuste {
         width: 70%;
-
-    }
-    
+    }  
 }
 
 @media screen and (max-width: 2800px) {
@@ -767,10 +764,9 @@ transition: 0s
         padding-top: 42px;
         width: 75%;
     }
-}
-
-@media screen and (max-height: 1200px) {
-    
+    .olim_ouro {
+        padding-top: 60px;
+    }
 }
 
 @media screen and (max-width: 1920px) {
@@ -827,7 +823,7 @@ transition: 0s
 
 @media screen and (max-width: 1600px) {
     .wave123 {
-        margin-top: -18vh;
+        margin-top: -11vw;
     }
 }
 
@@ -850,9 +846,11 @@ transition: 0s
     }
     .waves {
         height: 0px;
+        display: none;
     }
     .wave123 {
         height: 0px;
+        display: none;
     }
     .knowgame { 
         font-size: 29px;
@@ -900,11 +898,14 @@ transition: 0s
         width: 27%;
         margin-left: 9%;
     }
+    .espacao {
+        margin-top: -5px;
+    }
 }
 
 @media screen and (max-width: 1425px) {
     .olim_ouro {
-        padding-top: 5vh;
+        padding-top: 20px;
     }
     .caixa1 {
         margin-right: 8.5%;
@@ -1255,6 +1256,12 @@ transition: 0s
         .logo_info {
             margin-left: 0px;
         }
+        .navegue {
+            margin-top: 35px;
+        }
+        .institu h4 {
+            margin-top: 30px;
+        }
     }
 
     @media screen and (max-width: 900px) {
@@ -1292,6 +1299,22 @@ transition: 0s
         .signin {
             margin-top: 25px;
         }
+        .knowgame {
+            margin-left: 10px;
+        }
+        .start {
+            margin-left: 0%;
+        }
+        .caixa1_txt {
+            font-size: 14px;
+        }
+        .caixa2_txt {
+            font-size: 14px;
+        }
+        .caixa3_txt {
+            font-size: 14px;
+        }
+        
     }
 
     @media screen and (max-width: 800px) {
@@ -1452,7 +1475,19 @@ transition: 0s
         .institu h4 {
             margin-top: 0px;
         }
-        
+        .adventure_game { 
+            font-size: 37px; 
+        } 
+        .start { 
+            margin-left: -12%; 
+            margin-top: 18vh;
+        }
+        .knowgame {
+            margin-left: 10px;
+        }
+        .info_desc {
+            margin-top: 19vh;
+        }
     }
 
     @media screen and (max-width: 680px) {
@@ -1579,6 +1614,62 @@ transition: 0s
             margin-top: 25px;
             width: 120px;
         }
+        .quadrado2 
+        { display: none; 
+        } 
+        .metade {
+            display: none; 
+        } 
+        .info_game { 
+            display: grid; 
+        }  
+        .knowgame {
+            margin-top: 42px;
+            width: 100vw;
+            margin-left: 0;
+        }
+        .img_cosh {  
+            margin: 0; 
+        }
+        .espacao {
+            height: 480px;
+        }
+        .width_img_centro {
+            height: 160px;
+            width: 100vw;
+        }
+        .start {
+            margin-top: 0;
+            text-align: center;
+            margin-left: 0px;
+        }
+        .baixe_game {
+            width: 100vw;
+            height: 160px;
+        }
+        .img_cent {
+            width: 130px;
+            margin:auto;
+            height: 160px;
+        }
+        .info_desc {
+            margin-top: 0vh;
+            height: 200px;
+            width: 100vw;
+        }
+        .metade2 {
+            width: 100%;
+            height: 142px;
+        }
+        .tam {
+            height: 23rem;
+        }
+        .espaco_cinza {
+            height: 9vh;
+        }
+        .olim_ouro {
+            padding-top: 25px;
+        }
     }
     @media screen and (max-width: 480px) {
         .institu {
@@ -1602,37 +1693,19 @@ transition: 0s
             width: 233px;
             height: 85px;
         }
-        .img_cent {
-            width: 148px;
-            height: 275px;
-        }
         .ajuste_cab {
             width: 100vw;
         }
         #noticias {
             height: 450px;
         }
-        .text_lata {
-            margin-top: 0px;
-            height: 200px;
-        }
         .latas {
             width: 386px;
             margin-top: 4vh;
             height: 11vh;
         }
-        .espaco_cinza {
-            margin-top: -9vh;
-        }
         .oferta {
             margin-top: 0vh;
-        }
-
-        .tam2 {
-            height: 13rem;
-        }
-        .olim_ouro {
-            padding-top: 2vh;
         }
         .coc_size {
             font-size: 16px;
@@ -1651,37 +1724,11 @@ transition: 0s
             height: 28px;
             margin-top: 16px;
         }
-        .knowgame {
-            margin-left: -25px;
-            width: 255px;
-            margin-top: -19px;
-            font-size: 10px;
-        }
-        .font_size_game {
-            font-size: 17px;
-        }
-        .bolder_coke {
-            font-size: 24px;
-        }
-        .width_img_centro {
-            width: 27vw;
-        }
-        .img_cosh {
-            width: 90px;
-            margin-left: 31px;
-        }
-        .start {
-            font-size: 16px;
-            margin-top: 20vh;
-        }
         .pe {
             height: 450px;
         }
         .blur1 {
             height: 26vw;
-        }
-        .tam {
-            height: 13rem;
         }
         .ajuste img {
             width: 83px;
@@ -1700,6 +1747,18 @@ transition: 0s
         }
         .centro {
             height: 32vh;
+        }
+        .tam {
+            height: 19rem;
+        }
+        .tam2 {
+            height: 19rem;
+        }
+        .text_lata {
+            margin-top: 70px;
+        }
+        .knowgame {
+            margin-top: 75px;
         }
     }
 
