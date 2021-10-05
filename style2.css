@@ -287,7 +287,7 @@ ul.slick-dots {
     display: inline-flex;
     width: 1580px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .sin1 {
     width: 33.3%;
@@ -296,7 +296,7 @@ ul.slick-dots {
     width: 33.3%;
 }
 .sin2 {
-    margin-top: 60px;
+    margin-top: 40px;
     width: 33.3%;
 }
 
@@ -373,6 +373,7 @@ ul.slick-dots {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    margin-top: -1px;
 }
 
 .back_history1 {
@@ -403,6 +404,7 @@ ul.slick-dots {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    margin-top: -1px;
 }
 
 .back_history2 {
@@ -428,6 +430,7 @@ ul.slick-dots {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    margin-top: -1px;
 }
 .back_history3 {
     width: 100%;
@@ -444,6 +447,7 @@ ul.slick-dots {
 
 .onda_black {
     background-color: #120403;
+    margin-top: -1px;
 }
 
 .onda_white {
@@ -718,7 +722,11 @@ ul.slick-dots {
         margin-left: 45%;
     }
     .ajuste_sinopse {
-        width: 1245px;
+        width: 1280px;
+        margin-top: 20px;
+    }
+    .sin2 {
+        margin-top: 30px;
     }
 }
 
@@ -753,6 +761,7 @@ ul.slick-dots {
     .sin2 {
         width: 421px;
         margin: auto;
+        font-size: 19px;
     }
     .history_1 {
         margin: auto;
@@ -767,9 +776,6 @@ ul.slick-dots {
         width: 60%;
     }
     .sin3 {
-        font-size: 19px;
-    }
-    .sin2 {
         font-size: 19px;
     }
     .sin1 {
@@ -828,6 +834,7 @@ ul.slick-dots {
     .sin2 {
         font-size: 16px;
         margin-top: 30px;
+        width: 35%;
     }
     .sin3 {
         font-size: 16px;

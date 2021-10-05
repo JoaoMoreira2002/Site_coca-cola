@@ -471,6 +471,7 @@ transition: 0s
 }
 .onda_black {
     background-color: red;
+    margin-top: -2px;
 }
 
 .onda_white {
@@ -887,7 +888,7 @@ transition: 0s
         width: 32vw;
     }
     .img_cent {
-        margin-left: 8vw;
+        margin-left: 7vw;
     }
     .logo_info {
         margin-right: 132px;
@@ -1196,7 +1197,7 @@ transition: 0s
         }
         
         .espaco_cinza {
-            height: 9vh;
+            height: 8vh;
         }
         .sua_lata {
             margin-top: 18px;
@@ -1254,11 +1255,11 @@ transition: 0s
         }
         .text_lata {
             width: 100vw;
-            margin-top: 12vh;
+            margin-top: auto;
             text-align: center;
             margin-left: 0px;
             padding-top: 0px;
-            height: 25vh;
+            height: 113px;
     
         }
         .sua_lata2 {
@@ -1518,7 +1519,7 @@ transition: 0s
             width: 100%;
         }
         .espaco_cinza {
-            height: 12vh;
+            height: 8vh;
         }
         #noticias {
             height: 490px;
@@ -1623,9 +1624,6 @@ transition: 0s
         }
         .img_cosh {
             width: 117px;
-        }
-        .espacao {
-            height: 39vh;
         }
         .dropbtn {
             background-color: #495350;
@@ -1741,7 +1739,7 @@ transition: 0s
             height: 23rem;
         }
         .espaco_cinza {
-            height: 9vh;
+            height: 50px;
         }
         .olim_ouro {
             padding-top: 25px;
@@ -1795,8 +1793,6 @@ transition: 0s
         }
         .latas {
             width: 386px;
-            margin-top: 4vh;
-            height: 11vh;
         }
         .oferta {
             margin-top: 0vh;
@@ -1848,11 +1844,15 @@ transition: 0s
         .tam2 {
             height: 19rem;
         }
-        .text_lata {
-            margin-top: 70px;
-        }
         .knowgame {
             margin-top: 75px;
+        }
+        .text_lata {
+            height: 93px;
+        }
+        .ajuste { 
+            height: 400px; 
+            padding-top: 35px;
         }
     }
 
