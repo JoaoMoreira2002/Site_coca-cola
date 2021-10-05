@@ -984,7 +984,15 @@ transition: 0s
     .caixa3 {
         height: 114px;
     }
-    
+    .caixa1_img img {
+        width: 110px;
+    }
+    .caixa2_img img {
+        width: 110px;
+    }
+    .caixa3_img img {
+        width: 110px;
+    }
 }
 
 @media screen and (max-width: 1281px) {
@@ -1059,15 +1067,6 @@ transition: 0s
     }
     .pe {
          height: 350px;
-    }
-    .caixa1_img img {
-        width: 110px;
-    }
-    .caixa2_img img {
-        width: 110px;
-    }
-    .caixa3_img img {
-        width: 110px;
     }
 }
 
@@ -1376,6 +1375,9 @@ transition: 0s
         #noticias {
             height: 280px;
         }
+        .text_lata {
+            margin-left: 0px;
+        }
     }
 
     @media screen and (max-width: 800px) {
@@ -1414,7 +1416,7 @@ transition: 0s
         }
         .caixa3 {
             width: 270px;
-            margin-top: 4vh;
+            margin-top: 40px;
             margin-left: 0;
         }
         .oferta {
@@ -1548,7 +1550,19 @@ transition: 0s
             display: grid;
             width: 271px;
             margin: auto;
-            padding-top: 43px;
+            padding-top: 40px;
+        }
+        .espaco1 {
+            height: 100px;
+        }
+        .espaco2 {
+            height: 100px;
+        }
+        .espaco3 {
+            height: 100px;
+        }
+        .ajuste {
+            height: 450px;
         }
     }
 
