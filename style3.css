@@ -942,6 +942,14 @@ button:hover span:after {
         width: 91%;
         margin: auto;
     }
+    .regulamento:after {
+        padding-top: 202%;
+        padding-left: 147%;
+    }
+    .cadastrar:after {
+        padding-top: 202%;
+        padding-left: 147%;
+    }
 }
 
 @media (max-width: 480px) {

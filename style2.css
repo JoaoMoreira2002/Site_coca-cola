@@ -1373,6 +1373,14 @@ ul.slick-dots {
         margin-top: 25px;
         width: 120px;
       }
+      .regulamento:after {
+        padding-top: 202%;
+        padding-left: 147%;
+      }
+      .cadastrar:after {
+        padding-top: 202%;
+        padding-left: 147%;
+      }
 }
 
 @media (max-width: 480px) {

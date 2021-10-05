@@ -66,7 +66,7 @@ nav ul a:hover {
 }
 
 .fundo0 {
-    height: 35vw;
+    height: 23vw;
     width: 100%;
     margin-top: 15px;
 }
@@ -94,7 +94,7 @@ nav ul a:hover {
     margin-top: -44vh;
 }
 .centro {
-    height: 48vh;
+    height: 23vw;
     width: 83vw;
     margin: auto;
 }
@@ -109,7 +109,7 @@ nav ul a:hover {
     height: 320px;
     margin: auto;
     width: 70vw;
-    padding-top: 45px;
+    padding-top: 65px;
 }
 
 .caixa1
@@ -477,7 +477,7 @@ transition: 0s
     margin-top: -15vw;
 }
 .espacao {
-    height: 58vh;
+    height: 68vh;
     background-color: red;
 
 }
@@ -754,18 +754,30 @@ transition: 0s
     .ajuste {
         width: 70%;
     }  
+    .ajuste {
+        padding-top: 135px;
+    }
+    #noticias {
+        height: 408px;
+    }
 }
 
 @media screen and (max-width: 2800px) {
-    .fundo0 {
-        height: 51vh;
-    }
     .ajuste {
-        padding-top: 42px;
+        padding-top: 65px;
         width: 75%;
     }
     .olim_ouro {
         padding-top: 60px;
+    }
+    .centro {
+        height: 29vw;
+    }
+    .fundo0 {
+        height: 31vw;
+    }
+    .ajuste {
+        padding-top: 100px;
     }
 }
 
@@ -774,10 +786,18 @@ transition: 0s
         width: 86%;
 
     }
-    .fundo0 {
-        height: 50vh;
+    .fundo0 { 
+        height: 33vw; 
     }
-    
+    .fundo {
+        height: 40vw;
+    }
+    .fundo2 {
+        margin-top: -35vw;
+    }
+    .centro {
+        height: 30vw;
+    }
 }
 
 
@@ -788,21 +808,17 @@ transition: 0s
         width: 37%;
     }
     .fundo0 {
-        height: 51vh;
+        height: 31vw;
     }
-
-
-
-
-.ajuste_cab {
-    width: 1750px;
-}
-.img_cosh{
-    margin-top: 17vh;
-}
-.ajuste_info {
-     width: 1371px;
-}
+    .ajuste_cab {
+        width: 1750px;
+    }
+    .img_cosh{
+        margin-top: 17vh;
+    }
+    .ajuste_info {
+         width: 1371px;
+    }
 }
 
 @media screen and (max-width: 1680px) {
@@ -913,9 +929,6 @@ transition: 0s
 }
 
 @media screen and (max-width: 1400px) {
-    .fundo0 {
-        height: 50vh;
-    }
     .latas {
         width: 1289px;
     }
@@ -932,6 +945,28 @@ transition: 0s
     .caixa3 {
         width: 28%;
         margin-left: 6.5%;
+    }
+    .fundo2 { 
+        margin-top: -43vw; 
+    } 
+    .centro { 
+        height: 36vw; 
+        width: 90vw; 
+    } 
+    .fundo0 { 
+        height: 41vw; 
+    } 
+    .corimg { 
+        height: 39vw; 
+    }
+    .fundo {
+        height: 49vw;
+    }
+    #noticias { 
+        height: 330px; 
+    } 
+    .ajuste { 
+        padding-top: 70px; 
     }
 }
 
@@ -1024,6 +1059,15 @@ transition: 0s
     }
     .pe {
          height: 350px;
+    }
+    .caixa1_img img {
+        width: 110px;
+    }
+    .caixa2_img img {
+        width: 110px;
+    }
+    .caixa3_img img {
+        width: 110px;
     }
 }
 
@@ -1262,6 +1306,19 @@ transition: 0s
         .institu h4 {
             margin-top: 30px;
         }
+        .corimg { 
+            height: 61vw; 
+        } 
+        .fundo0 { 
+            height: 56vw; 
+        } 
+        .centro { 
+            height: 51vw; 
+            width: 92vw; 
+        } 
+        .fundo2 { 
+            margin-top: -41vw; 
+        }
     }
 
     @media screen and (max-width: 900px) {
@@ -1280,12 +1337,6 @@ transition: 0s
         }
         .caixa3 {
             height: 99px;
-        }
-        .centro {
-            height: 45vh;
-        }
-        .fundo0 {
-            height: 47vh;
         }
         .img_cent {
             margin-left: -4vw;
@@ -1314,7 +1365,17 @@ transition: 0s
         .caixa3_txt {
             font-size: 14px;
         }
-        
+        .fundo0 { 
+            height: 51vw; 
+        } 
+        .centro { 
+            height: 49vw; 
+        }.fundo2 {
+            margin-top: -44vw;
+        }
+        #noticias {
+            height: 280px;
+        }
     }
 
     @media screen and (max-width: 800px) {
@@ -1355,11 +1416,6 @@ transition: 0s
             width: 270px;
             margin-top: 4vh;
             margin-left: 0;
-        }
-        .ajuste {
-            display: grid;
-            width: 271px;
-            margin: auto;
         }
         .oferta {
             margin-top: 0vh;
@@ -1466,7 +1522,7 @@ transition: 0s
             height: 490px;
         }
         .centro {
-            height: 42vh;
+            height: 48vw;
         }  
         .img_cent {
             width: 246px;
@@ -1487,6 +1543,12 @@ transition: 0s
         }
         .info_desc {
             margin-top: 19vh;
+        }
+        .ajuste {
+            display: grid;
+            width: 271px;
+            margin: auto;
+            padding-top: 43px;
         }
     }
 
@@ -1648,7 +1710,7 @@ transition: 0s
             height: 160px;
         }
         .img_cent {
-            width: 130px;
+            width: 117px;
             margin:auto;
             height: 160px;
         }
@@ -1670,6 +1732,24 @@ transition: 0s
         .olim_ouro {
             padding-top: 25px;
         }
+        .regulamento:after {
+            padding-top: 202%;
+            padding-left: 147%;
+        }
+        .cadastrar:after {
+            padding-top: 202%;
+            padding-left: 147%;
+        }
+        .caixa1_img {
+            height: 98px;
+        }
+        .caixa2_img {
+            height: 98px;
+        }
+        .caixa3_img {
+            height: 98px;
+        }
+
     }
     @media screen and (max-width: 480px) {
         .institu {
@@ -1743,10 +1823,10 @@ transition: 0s
             font-size: 14px;
         }
         .fundo0 {
-            height: 39vh;
+            height: 68vw;
         }
         .centro {
-            height: 32vh;
+            height: 63vw;
         }
         .tam {
             height: 19rem;
