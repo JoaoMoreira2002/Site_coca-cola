@@ -97,7 +97,9 @@ nav ul a:hover {
     height: 91%;
     margin-top: 5%;
     border-radius: 1%;
-    box-shadow: 1px 1px 2px rgba(56, 46, 46, 0.438) ;
+    box-shadow: 1px 1px 2px rgba(56, 46, 46, 0.438);
+    display: flex;
+    flex-direction: column;
 }
 
 .img_promo_1 {
@@ -198,9 +200,10 @@ button {
   border: none;
   color: #ffffff;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   padding: 15px;
-  width: 160px;
+  width: 170px;
+  height: 60px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -232,28 +235,32 @@ button:hover span:after {
 }
 
 .title_promo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
-    margin-top: 20px;
 }
 
 .sinopse_promo {
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-    width: 80%;
+    width: 88%;
     margin: auto;
+    height: 200px;
 
 }
-
+button {
+    height: 55px;
+}
 .context_promo {
     margin-top: 4%;
+    font-size: 26px;
 }
 
 .botao_promo {
     text-align: center;
     margin-top: 2%;
+    height: 100px;
 }
 
 .onda_black {
@@ -508,21 +515,21 @@ button:hover span:after {
     .ajuste_info {
         width: 1151px;
    }
-   .title_promo {
-       font-size: 18px;
-   }
    .sinopse_promo {
        font-size: 15px;
+       height: 130px;
+   }
+   .botao_promo {
+       height: 80px;
    }
    button {
-    font-size: 16px;
-    padding: 12px;
-    width: 140px;
-    margin: 2px;
+        font-size: 16px;
+        padding: 12px;
+        width: 140px;
+        margin: 2px;
   }
   .title_promo {
-    font-size: 24px;
-    margin-top: 28px;
+        font-size: 24px;
     }
     .context_promo {
         margin-top: 3%;
@@ -552,9 +559,6 @@ button:hover span:after {
     .navegue {
         margin-right: 85px;
     } 
-    .title_promo {
-        font-size: 16px;
-    }
     .sinopse_promo {
         font-size: 12px;
         width: 80%;
@@ -565,16 +569,11 @@ button:hover span:after {
         width: 140px;
         margin: 2px;
     }
-    .title_promo {
-        font-size: 22px;
-    }
-    .context_promo {
-        font-size: 18px;
-    }
     button {
-        font-size: 21px;
-        padding: 17px;
+        font-size: 19px;
+        padding: 12px;
         width: 160px;
+        height: 50px;
     }
     .promotions {
         height: 1879px;
@@ -590,6 +589,13 @@ button:hover span:after {
     .navegue {
         margin-right: 65px;
     }
+    .title_promo { 
+        font-size: 19px; 
+    } 
+    .context_promo { 
+        font-size: 17px; 
+        margin-top: 5%; 
+    }
 }
 
 @media (max-width: 1100px) {
@@ -598,9 +604,6 @@ button:hover span:after {
     }
     .pe {
         height: 350px;
-    }
-    .sinopse_promo {
-        margin-top: -4%;
     }
     .institu { 
         margin-right: 0; 
@@ -613,6 +616,16 @@ button:hover span:after {
     } 
     .ajuste_info { 
         width: 1001px; 
+    }
+    .title_promo {
+        font-size: 18px;
+    }
+    .context_promo {
+        font-size: 16px;
+        margin-top: 4%;
+    }
+    .botao_promo {
+        height: 70px;
     }
 }
 
@@ -645,13 +658,10 @@ button:hover span:after {
     }
     .sinopse_promo {
         font-size: 10px;
-        margin-top: -4%;
+        width: 90%;
     }
     .context_promo {
-        font-size: 17px;
-    }
-    .sinopse_promo {
-        width: 90%;
+        font-size: 15px;
     }
     button {
         font-size: 16px;
@@ -767,13 +777,8 @@ button:hover span:after {
     .signin {
         width: 180px;
     }
-    .title_promo {
-        font-size: 10px;
-        width: 95%;
-    }
     .sinopse_promo {
         font-size: 8px;
-        margin-top: -6%;
     }
      button {
         font-size: 10px;
@@ -817,19 +822,11 @@ button:hover span:after {
     }
     .sinopse_promo {
         font-size: 6px;
-        margin-top: -6%;
         width: 85%;
     }
     .context_promo {
         margin-top: 7%;
     }
-     button {
-        font-size: 7px;
-        padding: 6px;
-        width: 60px;
-        height: 20px;
-        margin-top: 0px;
-      }
       .botao_promo {
         text-align: center;
         margin-top: 0%;
@@ -840,9 +837,9 @@ button:hover span:after {
       button {
         font-size: 15px;
         padding: 11px;
-        width: 121px;
-        height: 50px;
         margin-top: 12px;
+        width: 111px;
+        height: 40px;
     }
     .context_promo {
         font-size: 14px;
@@ -991,10 +988,16 @@ button:hover span:after {
         height: 33vh;
     }
     .context_promo {
-        font-size: 17px;
+        font-size: 16px;
     }
     .title_promo {
-        font-size: 25px;
+        font-size: 21px;
+    }
+    button {
+        width: 115px;
+    }
+    .sinopse_promo {
+        width: 93%;
     }
 }
 @media (max-width: 390px) {
