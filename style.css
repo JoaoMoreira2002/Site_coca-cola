@@ -754,10 +754,8 @@ transition: 0s
 @media screen and (max-width: 3800px) {
     .ajuste {
         width: 70%;
-    }  
-    .ajuste {
         padding-top: 135px;
-    }
+    }  
     #noticias {
         height: 408px;
     }
@@ -1072,10 +1070,6 @@ transition: 0s
 }
 
 @media screen and (max-width: 1100px) {
-
-        .logo_info {
-            margin-right: 30px;
-        }
         .navegue {
             margin-right: 22px;
         }
@@ -1087,6 +1081,7 @@ transition: 0s
         }
         .latas {
             width: 97vw;
+            padding-bottom: 0px;
         }
         .signin {
             width: 18vw;
@@ -1099,11 +1094,6 @@ transition: 0s
         .espaco_cinza {
             height: 110px;
         }
-        .latas {
-            padding-bottom: 0px;
-        }
-
-
         .ajuste {
             font-size: 12px;
         }
@@ -1119,6 +1109,7 @@ transition: 0s
         }
         .info_desc {
             width: 34vw;
+            margin-top: 20vh;
         }
         .adventure_game {
             font-size: 50px;
@@ -1158,10 +1149,6 @@ transition: 0s
             margin-left: 1%;
             margin-top: 21vh;
         }
-        .info_desc {
-            margin-top: 20vh;
-        }
-        
     }
 
     @media screen and (max-width: 1000px) {
@@ -1188,12 +1175,10 @@ transition: 0s
         }
         .fundo2 {
             padding-left: 15px;
+            margin-top: -41vw; 
         }
         .latas h2 {
             font-size: 20px;
-        }
-        .latas p {
-            font-size: 16px;
         }
         
         .espaco_cinza {
@@ -1207,9 +1192,6 @@ transition: 0s
         }
         .tam {
             height: 24rem;
-        }
-        .latas {
-            padding-bottom: 0;
         }
         .tam2 {
             height: 23rem;
@@ -1267,18 +1249,16 @@ transition: 0s
             text-align: center;
         }
         .latas p {
-            font-size: 16px;
             text-align: center;
             margin-left: 0px;
+            font-size: 19px; 
         }
         .img_lata {
             width: 0px;
         }
         .latas {
             width: 100%;
-        }
-        .latas p {
-            font-size: 19px;            
+            padding-bottom: 0;
         }
         .knowgame {
             margin-left: 60px;
@@ -1316,9 +1296,6 @@ transition: 0s
             height: 51vw; 
             width: 92vw; 
         } 
-        .fundo2 { 
-            margin-top: -41vw; 
-        }
     }
 
     @media screen and (max-width: 900px) {
@@ -1455,10 +1432,10 @@ transition: 0s
             font-size: 30px;
         }
         .knowgame {
-            margin-left: 39px;
             width: 255px;
             margin-top: -10px;
             font-size: 19px;
+            margin-left: 10px;
         }
         .logo_info {
             width: 100%;
@@ -1511,12 +1488,10 @@ transition: 0s
         }
         .ajuste_info {
             margin-top: -20px;
+            width: 100%;
         }
         .pe {
             height: 480px;
-        }
-        .ajuste_info {
-            width: 100%;
         }
         .espaco_cinza {
             height: 8vh;
@@ -1541,9 +1516,6 @@ transition: 0s
             margin-left: -12%; 
             margin-top: 18vh;
         }
-        .knowgame {
-            margin-left: 10px;
-        }
         .info_desc {
             margin-top: 19vh;
         }
@@ -1552,6 +1524,7 @@ transition: 0s
             width: 271px;
             margin: auto;
             padding-top: 40px;
+            height: 450px;
         }
         .espaco1 {
             height: 100px;
@@ -1561,9 +1534,6 @@ transition: 0s
         }
         .espaco3 {
             height: 100px;
-        }
-        .ajuste {
-            height: 450px;
         }
     }
 
@@ -1581,7 +1551,7 @@ transition: 0s
         .olim_ouro {
             color: #F9FCFF;
             text-align: center;
-            padding-top: 1vh;
+            padding-top: 25px;
         }
         .info {
             font-size: 11px;
@@ -1596,16 +1566,6 @@ transition: 0s
         .text_lata p {
             margin-left: 0px;
             text-align: center;
-        }
-    
-        .img_cosh {
-            width: 130px;
-        }
-        .knowgame {
-            margin-left: 10px;
-            width: 255px;
-            margin-top: -14px;
-            font-size: 19px;
         }
         .coc_size {
             font-size: 20px;
@@ -1700,6 +1660,7 @@ transition: 0s
         .knowgame {
             margin-top: 42px;
             width: 100vw;
+            font-size: 19px;
             margin-left: 0;
         }
         .img_cosh {  
@@ -1740,9 +1701,6 @@ transition: 0s
         }
         .espaco_cinza {
             height: 50px;
-        }
-        .olim_ouro {
-            padding-top: 25px;
         }
         .regulamento:after {
             padding-top: 202%;
@@ -1823,9 +1781,6 @@ transition: 0s
         .ajuste img {
             width: 83px;
         }
-        .ajuste {
-            width: 233px;
-        }
         .latas h2 {
             font-size: 18px;
         }
@@ -1853,6 +1808,7 @@ transition: 0s
         .ajuste { 
             height: 400px; 
             padding-top: 35px;
+            width: 233px;
         }
     }
 
@@ -1896,18 +1852,7 @@ transition: 0s
         .caixa3_img {
             height: 81px;
         }
-        .caixa1_txt {
-            margin-top: 25px;
-            margin-left: 7px;
-        }
-        .caixa2_txt {
-            margin-top: 25px;
-            margin-left: 7px;
-        }
-        .caixa3_txt {
-            margin-top: 25px;
-            margin-left: 7px;
-        }
+        
         .latas {
             margin: auto;
             padding-bottom: 119px;
@@ -1986,14 +1931,17 @@ transition: 0s
         .caixa1_txt {
             margin-top: 17px;
             font-size: 10px;
+            margin-left: 7px;
         }
         .caixa2_txt {
             margin-top: 17px;
             font-size: 10px;
+            margin-left: 7px;
         }
         .caixa3_txt {
             margin-top: 17px;
             font-size: 10px;
+            margin-left: 7px;
         }
     }
 

@@ -668,8 +668,8 @@ ul.slick-dots {
         margin-left: 50%;
     }
     nav {
-            width: 37%;
-            margin-left: 60%;
+        width: 37%;
+        margin-left: 60%;
         }
     .logo {
         margin-left: 130px;
@@ -742,10 +742,6 @@ ul.slick-dots {
     .pe {
         height: 350px;
     }
-    .logo_info { 
-        margin-right: 66px;        
-        width: 269px; 
-    } 
     .navegue {
         margin-right: 85px;
     }
@@ -799,6 +795,8 @@ ul.slick-dots {
     }
     .logo_info {
         margin-left: 12px;
+        margin-right: 66px;        
+        width: 269px;
     } 
 }
 
@@ -869,9 +867,6 @@ ul.slick-dots {
         padding: 5px;
         font-size: 14px;
     }
-    .pe {
-        height: 176vh;
-    }
     .plus_info {
         display: grid;
     }
@@ -880,6 +875,7 @@ ul.slick-dots {
     }
     .ajuste_info {
         width: 180px;
+        margin-top: 30px;
     }
     .map1 {
         width: 272px;
@@ -952,9 +948,6 @@ ul.slick-dots {
     .capa_game {
         height: 50vh;
     }
-    .ajuste_info {
-        margin-top: 30px;
-    }
     .pe {
         height: 1200px;
     }
@@ -1021,12 +1014,7 @@ ul.slick-dots {
     }
     .ajuste_info {
         width: 100%;
-    }
-    .institu {
-    height: 35px;
-    border-bottom: solid 1px rgba(161, 153, 153, 0.644);
-    width: 100%;
-    margin-top: 10px;
+        margin-top: -20px;
     }
     .signin {
         width: 181px;
@@ -1040,13 +1028,6 @@ ul.slick-dots {
     }
     .contatos p {
         font-size: 0px
-    }
-    #fale_aqui {
-        font-size: 20px;
-        font-weight: bolder;
-        width: 100%;
-        border-bottom: solid 1px rgba(161, 153, 153, 0.644);
-        padding-bottom: 3vh;
     }
     .navegue {
         height: 35px;
@@ -1075,9 +1056,6 @@ ul.slick-dots {
     }
     .ico_peq {
         height: 0px;
-    }
-    .ajuste_info {
-        margin-top: -20px;
     }
     .history_1 {
         font-size: 16px;
@@ -1190,6 +1168,10 @@ ul.slick-dots {
         height: 480px;
     }
     #fale_aqui {
+        font-size: 20px;
+        font-weight: bolder;
+        width: 100%;
+        border-bottom: solid 1px rgba(161, 153, 153, 0.644);
         padding-bottom: 1vh;
     }
     .institu h4 {
@@ -1220,15 +1202,6 @@ ul.slick-dots {
     .map3 {
         width: 139px;
     }
-    .history_1 {
-        font-size: 12px;
-    }
-    .history_2 {
-        font-size: 12px;
-    }
-    .history_3 {
-        font-size: 12px;
-    }
     .sin3 {
         font-size: 10px;
     }
@@ -1241,9 +1214,6 @@ ul.slick-dots {
     }
     .ajuste_sinopse {
         width: 480px;
-    }
-    .map {
-        padding-top: 60px;
     }
     .a1 {
         height: 485px !important;
@@ -1288,14 +1258,6 @@ ul.slick-dots {
     .back3 { 
         height: 50vh; 
     }
-    .dim1 {
-        width: 140px;
-        margin: auto;
-        margin-top: 15px;
-    }
-    .logo {
-        margin-left: 0px;
-    }
     .a1 {
         margin-left: -31px !important;
     }
@@ -1316,6 +1278,7 @@ ul.slick-dots {
     }
     .map {
         font-size: 121px;
+        padding-top: 60px;
     }
     .capa_game {
         height: 40vh;
@@ -1325,12 +1288,15 @@ ul.slick-dots {
     }
     .history_1 {
         padding-top: 19vh;
+        font-size: 12px;
     }
     .history_2 {
         padding-top: 19vh;
+        font-size: 12px;
     }
     .history_3 {
         padding-top: 19vh;
+        font-size: 12px;
     }
     .dropbtn {
         background-color: #495350;
@@ -1385,6 +1351,7 @@ ul.slick-dots {
       .dim1 {
           width: 91%;
           margin: auto;
+          margin-top: 15px;
       }
       nav {
         display: none;
@@ -1415,28 +1382,6 @@ ul.slick-dots {
     }
     #fases {
         display: grid;
-    }
-    .map2 {
-        margin-top: 40px;
-    }
-    .map3 {
-        margin-top: 40px;
-    }
-    .sin1 {
-        margin-left: 0px;
-        margin-top: -334px;
-    }
-    .sin2 {
-        width: 421px;
-        margin: auto;
-        margin-top: -175px;
-        text-align: center;
-    }
-    .sin3 {
-        margin-left: 0px;
-        text-align: center;
-        margin-top: 30px;
-
     }
     #sinopse {
         display: grid;
@@ -1480,16 +1425,21 @@ ul.slick-dots {
         margin-top: -215px; 
         font-size: 8px; 
         width: 100%; 
+        margin-left: 0px;
     } 
     .sin2 { 
         font-size: 8px; 
+        margin: auto;
         margin-top: -198px; 
         width: 100%; 
+        text-align: center;
     } 
     .sin3 { 
         font-size: 8px; 
         margin-top: 315px; 
         width: 100%; 
+        margin-left: 0px;
+        text-align: center;
     }
     #heroe {
         font-size: 115px;
@@ -1502,9 +1452,7 @@ ul.slick-dots {
     .desc {
         font-size: 14px;
     }
-    .a1 {
-        height: 390px !important;
-    }
+    
     .c-circle {
         height: 330px;
         width: 330px;
@@ -1537,22 +1485,27 @@ ul.slick-dots {
         width: 284px;
     }
     .a3 {
-        margin-left: -37px !important;
+        margin-left: -11px !important;
+        height: 428px !important;
     }
     .a4 {
-        margin-left: -35px !important;
+        margin-left: -6px !important;
+        height: 440px !important;
     }
     .pe {
         height: 450px;
     }
     ul.slick-dots {
-        margin-top: -50px !important;
+        margin-top: 0px !important;
         margin-left: -16px !important;
     }
-    .a1 {
-    margin-left: -7px !important;
+    .a2 {
+        height: 429px !important;
     }
-    
+    .a1 {
+        height: 390px !important;
+        margin-left: -7px !important;
+    }
 }
 
 
@@ -1560,17 +1513,8 @@ ul.slick-dots {
 @media (max-width: 390px){
     .history_1 {
         font-size: 8px;
-        padding-top: 12vh;
-    }
-    .history_2 {
-        font-size: 8px;
-    }
-    .history_3 {
-        font-size: 8px;
-    }
-    .history_1 {
-        font-size: 8px;
         width: 70%;
+        padding-top: 12vh;
     }
     .history_2 {
         font-size: 8px;
@@ -1588,7 +1532,7 @@ ul.slick-dots {
     }
     #heroe {
         font-size: 95px;
-        margin-top: -6px;
+        margin-top: 0px;
     }
     .escolha {
         font-size: 33px;
@@ -1628,22 +1572,30 @@ ul.slick-dots {
     .slick-list {
         width: 245px;
     }
-    ul.slick-dots {
-        margin-top: -52px !important;
-        margin-left: -53px !important;
-    }
     .pe {
         height: 415px;
     }
     .a1 {
         height: 358px !important;
+        margin-left: -21px !important;
     }
     ul.slick-dots li {
         padding: 12px !important;
     }
     ul.slick-dots { 
-        margin-top: -111px !important; 
         margin-left: -8px !important; 
+        margin-top: 20px!important;
+    }
+    .a2 {
+        height: 365px !important;
+    }
+    .a3 {
+        height: 373px !important;
+        margin-left: -19px !important;
+    }
+    .a4 {
+        height: 375px !important;
+        margin-left: -16px !important;
     }
 }
 
